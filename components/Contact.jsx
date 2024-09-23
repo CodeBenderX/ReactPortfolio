@@ -47,7 +47,7 @@ const Contact = () => {
     <section className="contact-section">
       <h2>Please Leave me a Message</h2>
       <p>Contact me for Software Development, Web Development, and other inquiries</p>
-      <p>You can also reach me  at <br />Email: myname@email.com <br />Phone: +1 (123)456-7890</p>
+      <p>You can also reach me  at <br />Email: angelo.tiquio@outlook.com <br />Phone: +1 (437)239-8553</p>
       <form className="contactContainer" onSubmit={handleSubmit}>
         <table>
           <tbody>

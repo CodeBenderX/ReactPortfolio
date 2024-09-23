@@ -582,6 +582,19 @@ span {
   text-decoration: none;
 }
 
+/* Resposiveness for the Project Component: */
+@media (max-width: 768px) {
+  .portfolio-items {
+    flex-direction: column; /* Stack the items vertically */
+  }
+  
+  .portfolio-item {
+    width: 100%; /* Full width for each item */
+    margin-bottom: 20px; /* Space between stacked items */
+  }
+}
+
+
 /* Style for Services Components */
 .services-section {
   padding: 10px;
