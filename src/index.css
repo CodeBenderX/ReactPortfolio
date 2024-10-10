@@ -75,6 +75,60 @@ button:focus-visible {
   color:#01a9a6
 }
 
+@media (max-width: 694px) {
+  .burger-menu {
+    position: absolute;
+    right: 10px; /* Align to the right with some padding */
+    top: 20px; /* Adjust top position based on your layout */
+    z-index: 3; /* Ensure the burger menu is on top of other content */
+  }
+
+  .navLayout {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff; /* White background for the header */
+    z-index: 1; /* Ensure the header is above other content */
+  }
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: 0; /* Change to `left: 0;` for left-side popup */
+    width: 300px;
+    height: 100vh; /* Full height of the viewport */
+    background-color: rgba(1, 169, 166, 0.5); /* 50% transparent #01a9a6 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(100%); /* Initially hide the menu by pushing it off-screen */
+    transition: transform 0.3s ease-in-out;
+    z-index: 2; /* Make sure it appears on top of other content */
+  }
+  .nav-menu.show {
+    transform: translateX(0); /* Bring the menu into view when toggled */
+  }
+  
+  .nav-menu.hidden {
+    transform: translateX(100%); /* Hide the menu when toggled off */
+    /* For left side popup, change this to translateX(-100%) */
+  }
+  
+  .nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  
+  .nav-menu a:hover {
+    text-decoration: underline;
+  }
+}
+
+
 nav {
   display: flex;
   font-size: x-large;

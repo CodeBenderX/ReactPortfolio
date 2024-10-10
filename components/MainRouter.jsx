@@ -22,7 +22,7 @@ const MainRouter = () => {
         return (<div>
                 <Layout/>
                 <Routes>
-                        <Route exact path="/" element={<Home />} />
+                        <Route index path="/" element={<Home />} />
                         <Route exact path="/About" element={<About />} />
                         <Route exact path="/Project" element={<Project />} />
                         <Route exact path="/Services" element={<Services />} />

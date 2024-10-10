@@ -4,7 +4,7 @@
   Date: September 21, 2024*/
 
 import React, { useState } from "react";
-import aboutPicture from "C:/Users/Angelo Tiquio/Desktop/ReactPortfolio2/ReactPortfolio/src/assets/aboutMeProfile.png";
+import aboutPicture from "C:/Users/Angelo Tiquio/Desktop/Github/ReactPortfolio2/ReactPortfolio/src/assets/aboutMeProfile.png";
 import resume from "/src/assets/AngeloTiquio_Porfolio.pdf"
 
 /* 
