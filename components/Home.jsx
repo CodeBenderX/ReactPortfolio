@@ -5,7 +5,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import profilePicture from "C:/Users/Angelo Tiquio/Desktop/Portfolio/client/src/assets/profile_picture.png";
+import profilePicture from "../src/assets/portfolioHero.png";
 
 /* 
   =============================
